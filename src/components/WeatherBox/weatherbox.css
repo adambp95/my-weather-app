@@ -1,0 +1,84 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.search-bar {
+  width: 550px;
+  padding: 6px 10px;
+  border-radius: 16px;
+  border: 1px solid grey;
+}
+
+.send-btn {
+  padding: 6px 10px;
+  width: 90px;
+  border: 1px solid grey;
+  border-radius: 16px;
+}
+
+.weather-container {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px black;
+  margin: 12px auto 0 auto;
+  padding: 0 20px 20px 20px;
+  background-color: rgba(0, 0, 0, 0.24);
+  color: yellow;
+  cursor: pointer;
+  
+}
+
+.header {
+  display: flex;
+}
+
+.country {
+  width: fit-content;
+}
+
+.country p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.temp {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 50px;
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  
+}
+
+.body-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.body-img img{
+  height: 110px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+}

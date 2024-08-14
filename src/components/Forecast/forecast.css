@@ -1,0 +1,27 @@
+.forecast-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 22px 12px 0 12px;
+  column-gap: 18px;
+  height: 750px;
+  align-items: center;
+  justify-content: center;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.daily-card {
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.24);
+  color: rgb(255, 255, 0);
+  cursor: pointer;
+  padding: 0 20px 20px 20px;
+  box-shadow: 0 0 12px black;
+  margin: auto;
+}
